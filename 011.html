@@ -1,0 +1,89 @@
+<html>
+<head>
+<style>
+body {font-family: sans-serif;
+    margin: 0; font-size: 0;}
+
+
+.bgboxes {
+    width:600px;
+    height: 130px;
+    margin: 10px;
+    background-color: #555555;
+
+}
+
+.fgboxes {
+    display: inline-block;
+    width: 30%;
+    height: 100px;
+    background-color: #cccccc;
+    margin: 8px;
+
+}
+
+.fgboxes_center {
+    display: inline-block;
+    width: 22%;
+    background-color: #cccccc;
+    margin: 8px;
+}
+
+.fgboxes_bottom {
+    display: inline-block;
+    width: 46%;
+    background-color: #cccccc;
+    margin: 7px;
+}
+
+#middle1 {
+    height: 100px;
+    vertical-align: top;
+}
+
+#middle2 {
+    height: 75px;
+    vertical-align: top;
+}
+#bottom1 {
+    height: 35px;
+    vertical-align: bottom;
+    position: relative;
+}
+#bottom2 {
+    height: 75px;
+    vertical-align: bottom;
+    position: relative;
+}
+</style>
+</head>
+
+<body>
+
+
+<div  class="bgboxes">
+<div class="fgboxes"></div>
+<div class="fgboxes"></div>
+<div class="fgboxes"></div>
+</div>
+
+
+<div class="bgboxes">
+<div class="fgboxes_center" id="middle2"></div>
+<div class="fgboxes_center" id="middle1"></div>
+<div class="fgboxes_center" id="middle2"></div>
+<div class="fgboxes_center" id="middle1"></div>
+
+</div>
+
+<div  class="bgboxes">
+<div class="fgboxes_bottom" id="bottom1"></div>
+<div class="fgboxes_bottom" id="bottom2"></div>
+
+</div>
+
+
+
+
+</body>
+</html>
