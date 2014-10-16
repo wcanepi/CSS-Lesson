@@ -1,0 +1,70 @@
+<html>
+
+<head>
+<style>
+body {
+    font-family: sans-serif;
+
+    margin: 2px;
+    padding: 0;
+
+}
+.formbox {
+    font-weight: heavy;
+    height: 150px;
+    width: 300px;
+    vertical-align: top;
+
+
+}
+
+.items {
+        display: inline-block;
+        height: 150px;
+        width: 150px;
+        vertical-align: top;
+}
+
+#text {
+        padding-bottom: 5px;
+}  
+
+.submit {
+        height: 150px;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>The Fanciest Form</h1>
+<div class="items">
+Name:<br>
+Age:<br>
+Favorite Color:<br>
+Love Music:<br>
+Hate Music:<br>
+Is it raining?<br>
+</div>
+
+<div class="items" id="form"><form>
+<input type = "text" name="name"><BR>
+<input type = "text" name="age"><BR> 
+<select name="colors">
+<option value="magenta">Magenta</option>
+<option value="green">Green</option>
+<option value="blue">Blue</option>
+<option value="fuchsia">Fuchsia</option>
+<option value="red">Red</option></select><br>
+<input type="radio" name="music" value="love"><br>
+<input type="radio" name="music" value="hate"><br>
+<input type="checkbox"><br>
+</div>
+
+<div class="submit">
+<input type = "submit" VALUE="Submit"></form>
+</div>
+
+</body>
+</html>
